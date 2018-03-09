@@ -1,7 +1,7 @@
 {
   "name": "cinemaapp-nodejs",
   "version": "1.0.0",
-  "description": "GUI Weather App",
+  "description": "GUI Cinema App",
   "main": "server.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
