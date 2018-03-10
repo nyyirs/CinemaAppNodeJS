@@ -14,25 +14,32 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cinema</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="container">
-        <div class="row" style="margin-bottom: 25px">
-            <div class="col-3">
-                <h1 class="display-3">
-                    <a style="text-decoration: none" href="/">
-                        <</a>
-                </h1>
-            </div>
-            <div class="col-6">
-                <h1 class="display-3">MCINE-TRIANON</h1>
-            </div>
-        </div>
+        <h1 class="display-4 text-center">Mcine-Trianon</h1>
+
         <div class="row">
             {{#each movies}}
 
-            <div class="col-sm-3">
-                <div class="card" style="margin-bottom:20px; width: 13.5rem; ">
-                    <img class="card-img-top" src="{{image}}" style="width: 215px; height: 315px;">
+            <div class="col-6 col-sm-4 text-center">
+                <div class="card" style="margin-bottom:20px">
+                    <img class="card-img-top" src="{{image}}" style="width: 156px; height: 230px;">
                     <div class="card-body">
                         <h6 class="card-title">{{title}}</h6>
                         <button onclick="window.open('{{link}}')" type="button" class="btn btn-info">Read More</button>
