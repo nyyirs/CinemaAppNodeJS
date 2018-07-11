@@ -1,6 +1,6 @@
-# CinemaApp-NodeJS
+# CinemaApp-NodeJS (The Magic of Web Scraping)
 
-A simple web scrapping app using Node JS. It grapbs Titles, Movies Links and Image links from a local cinema website.
+A simple web scraping app using Node JS. It pulls Titles, Links and Images from a cinema website.
 
 :satellite: Application is live on http://moricine.herokuapp.com (Best UX on mobile)
 
